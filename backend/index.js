@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://authstate-git-main-roohithbalag23csd-konguedus-projects.vercel.app/',
   credentials: true
 }));
 app.use(express.json());

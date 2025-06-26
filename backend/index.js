@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: 'https://authstate-git-main-roohithbalag23csd-konguedus-projects.vercel.app/',
+  origin: 'https://authstate-git-main-roohithbalag23csd-konguedus-projects.vercel.app',
   credentials: true
 }));
 app.use(express.json());
